@@ -9,7 +9,7 @@ header h1 {
   width: 100%;
   color: white;
   margin:0;
-  padding:20px; 
+  padding:20px;
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
 }
@@ -24,7 +24,7 @@ nav {
   background-color: #567AA3;
   border-top: 2px;
   border-bottom: 2px;
-  width: 100%
+  width: 100%;
 }
 
 nav ul {
@@ -59,32 +59,56 @@ footer {
   padding:20px;
 }
 
-h2 {
-  background-color: white;
-  color:#56A371;
-  font-size: 35px;
-  position: relative;
-  bottom: 650px;
-}
-
 p {
   color: #56A371;
-  position: relative;
-  left: 240px;
-  top: 140px;
-  font-size: 30px;
 }
 
-img {
-  height: 300px;
-  position: relative;
-  bottom: 160px;
-  right: 250px;
-  border: 20px solid #56A371;
+h2 {
+  color:#56A371;
+  font-size: 35px;
+  position: absolute;
+  top: 150px;
+  left: 600px;
 }
 
-footer p {
-  font-size: 15px;
+#writing {
+  position: relative;
+  right: 400px;
+  top: 50px;
+}
+
+#design {
+  position: relative;
+  bottom: 25px;
+  right: 400px;
+}
+
+#camp {
+  position: relative;
+  bottom: 50px;
+  right: 400px;
+}
+
+.nike {
+  position: relative;
+  font-size: 20px;
+  left:160px;
+  bottom: 90px;
+}
+
+.wireframe {
+  position: relative;
+  font-size: 20px;
+  bottom: 140px;
+  left: 170px;
+}
+
+.brochure {
+  position: relative;
+  font-size: 20px;
+  bottom: 210px;
+  left: 170px;
+  height: 100px;
 }
 
 a:visited {

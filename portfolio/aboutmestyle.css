@@ -9,7 +9,7 @@ header h1 {
   width: 100%;
   color: white;
   margin:0;
-  padding:20px; 
+  padding:20px;
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
 }
@@ -38,7 +38,7 @@ nav ul {
 nav ul li {
   display: block;
   float: left;
-  padding-right: 70px;
+  padding-right: 70px
 }
 
 section {
@@ -59,32 +59,56 @@ footer {
   padding:20px;
 }
 
+p {
+  color: #56A371;
+  text-align: center;
+  right: 200px;
+}
+
 h2 {
-  background-color: white;
   color:#56A371;
   font-size: 35px;
   position: relative;
-  bottom: 650px;
+  bottom: 870px;
 }
 
-p {
-  color: #56A371;
+#msu {
+  font-size: 25px;
   position: relative;
-  left: 240px;
-  top: 140px;
-  font-size: 30px;
+  left: 170px;
+  top: 70px;
 }
 
-img {
-  height: 300px;
+#tennis {
   position: relative;
-  bottom: 160px;
-  right: 250px;
-  border: 20px solid #56A371;
+  font-size: 25px;
+  bottom: 140px;
+  left: 170px;
 }
 
-footer p {
-  font-size: 15px;
+#family {
+  position: relative;
+  bottom: 210px;
+  left:170px;
+  font-size: 25px;
+}
+
+.msupic {
+  position: relative;
+  bottom: 80px;
+  right: 400px;
+}
+
+.tennispic {
+  position: relative;
+  bottom: 0px;
+  right: 400px;
+}
+
+.fampic{
+  position: relative;
+  bottom: 50px;
+  right: 400px;
 }
 
 a:visited {

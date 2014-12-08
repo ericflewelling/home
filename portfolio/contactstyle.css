@@ -1,3 +1,11 @@
+img {
+  height: 150px;
+  border: 20px solid white;
+  position: relative;
+  top: 30px;
+  padding: 20px;
+}
+
 body {
   background-color: #14243D;
 }
@@ -9,7 +17,7 @@ header h1 {
   width: 100%;
   color: white;
   margin:0;
-  padding:20px; 
+  padding:20px;
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
 }
@@ -38,14 +46,14 @@ nav ul {
 nav ul li {
   display: block;
   float: left;
-  padding-right: 70px;
+  padding-right: 70px
 }
 
 section {
   clear: both;
   background-color:white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   text-align: center;
 }
 
@@ -59,32 +67,15 @@ footer {
   padding:20px;
 }
 
+p {
+  color: #56A371;
+}
+
 h2 {
-  background-color: white;
   color:#56A371;
   font-size: 35px;
   position: relative;
-  bottom: 650px;
-}
-
-p {
-  color: #56A371;
-  position: relative;
-  left: 240px;
-  top: 140px;
-  font-size: 30px;
-}
-
-img {
-  height: 300px;
-  position: relative;
-  bottom: 160px;
-  right: 250px;
-  border: 20px solid #56A371;
-}
-
-footer p {
-  font-size: 15px;
+  bottom: 270px;
 }
 
 a:visited {
