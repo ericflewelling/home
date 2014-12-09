@@ -66,9 +66,9 @@ p {
 h2 {
   color:#56A371;
   font-size: 35px;
-  position: absolute;
-  top: 150px;
-  left: 600px;
+  position: relative;
+  bottom: 900px;
+  left: 20px;
 }
 
 #writing {
